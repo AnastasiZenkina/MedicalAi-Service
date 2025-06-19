@@ -1,4 +1,4 @@
-package com.ortopunkt.ai.config;
+package com.ortopunkt.ai.responses;
 
 public class HandlerChainConfig {
 

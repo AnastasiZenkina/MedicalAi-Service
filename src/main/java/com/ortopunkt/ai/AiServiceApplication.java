@@ -8,6 +8,8 @@ public class AiServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AiServiceApplication.class, args);
+
+
     }
 
 }

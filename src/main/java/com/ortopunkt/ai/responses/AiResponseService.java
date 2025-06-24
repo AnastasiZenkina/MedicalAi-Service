@@ -13,7 +13,7 @@ public class AiResponseService {
         this.handler = new AbstractHandler(new TemplateSelector());
     }
 
-    public AiResponse getResponce (AiRequest request){
+    public AiResponse getResponse (AiRequest request){
         return handler.handle(request);
     }
 }

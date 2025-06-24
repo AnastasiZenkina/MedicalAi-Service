@@ -12,7 +12,7 @@ public class AbstractHandler implements Handler{
 
     @Override
     public AiResponse handle(AiRequest request){
-        String reply = selector.getReply(request.getTopic(), request.hasPhoto());
+        String reply = selector.getReply(request.getTopic(), request.isHasPhoto());
         return new AiResponse(reply);
     }
 }
